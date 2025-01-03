@@ -14,35 +14,41 @@
 }
 
 .node-visited {
-  animation-name: visitedAnimation;
-  animation-duration: 1.5s;
+  animation: visitedAnimation 1.5s ease-out forwards;
   animation-timing-function: ease-out;
-  animation-delay: 0;
-  animation-direction: alternate;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-  animation-play-state: running;
 }
 
 @keyframes visitedAnimation {
   0% {
-    transform: scale(0.3);
-    background-color: rgba(0, 0, 66, 0.75);
+    transform: scale(0.3) rotate(-45deg);
+    background-color: #4338ca;
     border-radius: 100%;
+    opacity: 0;
+  }
+
+  25% {
+    transform: scale(0.7) rotate(-20deg);
+    background-color: #6366f1;
+    opacity: 0.5;
   }
 
   50% {
-    background-color: rgba(17, 104, 217, 0.75);
+    transform: scale(1.2) rotate(0deg);
+    background-color: #818cf8;
+    opacity: 0.7;
   }
 
   75% {
-    transform: scale(1.2);
-    background-color: rgba(0, 217, 159, 0.75);
+    transform: scale(1.1) rotate(10deg);
+    background-color: #93c5fd;
+    box-shadow: 0 0 15px rgba(147, 197, 253, 0.5);
   }
 
   100% {
-    transform: scale(1);
-    background-color: rgba(0, 190, 218, 0.75);
+    transform: scale(1) rotate(0deg);
+    background-color: #60a5fa;
+    box-shadow: 0 0 8px rgba(96, 165, 250, 0.4);
+    opacity: 1;
   }
 }
 
