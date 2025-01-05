@@ -1,6 +1,6 @@
 # Visit the Project
 
-Open [https://pathfinder-algorithms.vercel.app/](https://pathfinder-algorithms.vercel.app/) to view the project i your browser.
+Open [https://pathfinder-algorithms.vercel.app/](https://pathfinder-algorithms.vercel.app/) to view the project in your browser.
 
 # Getting Started with Create React App
 
