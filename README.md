@@ -1,3 +1,7 @@
+# Visit the Project
+
+Open [https://pathfinder-algorithms.vercel.app/](https://pathfinder-algorithms.vercel.app/) to view the project i your browser.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
